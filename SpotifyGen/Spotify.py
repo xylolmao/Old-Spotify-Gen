@@ -62,6 +62,6 @@ with open("Accounts.txt", "a")as ddd:
         time.sleep(7)
         pyautogui.moveTo(909, 827)
         pyautogui.click()
-        ddd.write(f"Email: {email}\nUsername: {username}\nPassword: {password}")
+        ddd.write(f"Email: {email}\nUsername: {username}\nPassword: {password}\n")
         print(f"Email: {email}\nUsername: {username}\nPassword: {password}")
         i += 1
